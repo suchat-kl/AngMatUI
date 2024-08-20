@@ -1,3 +1,38 @@
+<style>
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+& .logo {
+  display:flex;
+  color:#fff;
+}
+    & .menu {
+      display: flex;
+      list-style: none;
+      & li {
+        margin: 0 2rem;
+        & a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+
+    }
+  }
+</style>
+<nav>
+  <div class="logo" >
+    <h3>Salary DOH</h3>
+  </div>
+<ul class="menu">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Service</a></li>
+  <li><a href="#">About</a></li>
+</ul>
+</nav>
 <mat-form-field>
   <mat-label>Enter a date range</mat-label>
   <mat-date-range-input [formGroup]="range" [rangePicker]="picker">
