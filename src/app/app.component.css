@@ -5,11 +5,13 @@
   .flex-item-B {
   background-color: green;
   width: 200px;
+  margin-top: 5px;
   }
   .flex-item-C {
   background-color: blue;
   width: 200px;
-
+  margin-top: 5px;
+/* padding-top: 50px; */
   }
   .d-flex {
   background-color: grey;
@@ -17,4 +19,9 @@
   width: 400px;
   align-items: center;
   justify-content: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
